@@ -1,6 +1,6 @@
 module.exports = function(webserver, controller) {
 
-  webserver.post('/teams/receive', function(req, res) {
+  webserver.post('/testing', function(req, res) {
 
     var message = req.body;
 
